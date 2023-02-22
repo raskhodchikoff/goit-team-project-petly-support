@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "required": ["category", "title", "name", "location", "comments"],
+  "properties": {
+    "photo": {
+      "type": "string",
+      "format": "binary"
+    },
+    "category": {
+      "type": "string",
+      "description": "Notice category from list {lost-found, in-good-hands, sell}",
+      "example": "sell"
+    },
+    "title": {
+      "type": "string",
+      "description": "Notice's title",
+      "example": "The cat is lost please help to find"
+    },
+    "name": {
+      "type": "string",
+      "description": "Pet's name",
+      "example": "Jessy"
+    },
+    "birthday": {
+      "type": "string",
+      "description": "Pet's birthday",
+      "example": "12.08.2022"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Pet's breed",
+      "example": "Burmese"
+    },
+    "sex": {
+      "type": "string",
+      "description": "Pet's sex from list {male, female}",
+      "example": "male"
+    },
+    "location": {
+      "type": "string",
+      "description": "Pet's location city and region",
+      "example": "Boryspil, Kyiv"
+    },
+    "price": {
+      "type": "string",
+      "description": "Pet's price",
+      "example": 250
+    },
+    "comments": {
+      "type": "string",
+      "description": "Comments for notice",
+      "example": "Two weeks ago go for a walk"
+    }
+  }
+}

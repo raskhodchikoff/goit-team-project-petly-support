@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number",
+      "description": "item id",
+      "example": 200
+    },
+    "status": {
+      "type": "string",
+      "description": "item id",
+      "example": "success"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "item id",
+          "example": "63df690ke4678ssd32093179"
+        },
+        "category": {
+          "type": "string",
+          "description": "Notice category from list {lost-found, in-good-hands, sell}",
+          "example": "sell"
+        },
+        "title": {
+          "type": "string",
+          "description": "Very nice cat",
+          "example": "sell"
+        },
+        "name": {
+          "type": "string",
+          "description": "Pet's name",
+          "example": "Barry"
+        },
+        "birthday": {
+          "type": "string",
+          "description": "01.12.2022",
+          "example": "sell"
+        },
+        "breed": {
+          "type": "string",
+          "description": "Pet's breed",
+          "example": "Munchkin"
+        },
+        "city": {
+          "type": "string",
+          "description": "Pet's location {City}",
+          "example": "Boryspil"
+        },
+        "region": {
+          "type": "string",
+          "description": "Pet's location {Region}",
+          "example": "Kyiv"
+        },
+        "sex": {
+          "type": "string",
+          "description": "Pet's sex",
+          "example": "male"
+        },
+        "imageURL": {
+          "type": "string",
+          "description": "Pet's photo URL",
+          "example": "http://res.cloudinary.com/dv7t2zcqq/image/upload/v1675800852/pizzieibqoopm61lbum4.jpg"
+        },
+        "price": {
+          "type": "string",
+          "description": "Price for selling",
+          "example": 250
+        },
+        "comments": {
+          "type": "string",
+          "description": "Notice comment",
+          "example": "Eat everything"
+        },
+        "owner": {
+          "type": "string",
+          "description": "Notice owner id",
+          "example": "63dfcc16eee92e797cc8c376"
+        }
+      }
+    }
+  }
+}

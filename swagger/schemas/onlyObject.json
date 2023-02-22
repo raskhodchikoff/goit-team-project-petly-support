@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number",
+      "description": "Response code",
+      "example": 200
+    },
+    "status": {
+      "type": "string",
+      "description": "Response status",
+      "example": "success"
+    },
+    "message": {
+      "type": "object",
+      "description": "Message",
+      "example": "The notice removed from favorites"
+    },
+    "noticeId": {
+      "type": "object",
+      "description": "Message",
+      "example": "The notice have added to favorites"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+"/notices/get/{noticeId}": {
+      "get": {
+        "tags": ["Notices"],
+        "summary": "Get full information about notice",
+        "parameters": [
+          {
+            "name": "noticeId",
+            "in": "path",
+            "description": "Notics category",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetNoticeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {}
+          },
+          "500": {
+            "description": "Server: Validation error",
+            "content": {}
+          }
+        }
+      }
+    }

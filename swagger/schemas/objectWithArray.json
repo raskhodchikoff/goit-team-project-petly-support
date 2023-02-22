@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number",
+      "description": "item id",
+      "example": 200
+    },
+    "status": {
+      "type": "string",
+      "description": "item id",
+      "example": "success"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string",
+            "description": "item id",
+            "example": "63df690ke4678ssd32093179"
+          },
+          "category": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "title": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "birthday": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "breed": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "city": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          },
+          "price": {
+            "type": "string",
+            "description": "Notice category from list {lost-found, in-good-hands, sell}",
+            "example": "sell"
+          }
+        }
+      }
+    }
+  }
+}

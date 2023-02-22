@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ЛКП 'ЛЕВ'",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/logo_2_xwioct.png",
+    "time": {
+      "monday": "08:00 - 19:00",
+      "tuesday": "08:00 - 19:00",
+      "wednesday": "08:00 - 19:00",
+      "thursday": "08:00 - 19:00",
+      "friday": "08:00 - 19:00",
+      "saturday": "08:00 - 19:00",
+      "sunday": "08:00 - 19:00"
+    },
+    "address": "Promuslova Street, 56",
+    "email": "lkplev@gmail.com",
+    "phone": "(032) 293-30-41"
+  },
+  {
+    "name": "Барбос",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/image_42_rhoiea.png",
+    "time": {
+      "monday": "08:00 - 20:00",
+      "tuesday": "08:00 - 20:00",
+      "wednesday": "08:00 - 20:00",
+      "thursday": "08:00 - 20:00",
+      "friday": "08:00 - 20:00",
+      "saturday": "08:00 - 18:00",
+      "sunday": "08:00 - 18:00"
+    },
+    "address": "Grigorenka Street, 25 ",
+    "email": "barbos@gmail.com",
+    "phone": "066 488 0480"
+  },
+  {
+    "name": "Whiskas",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/image_45_b0dxwk.png",
+    "time": null,
+    "address": null,
+    "email": "whiskas@gmail.com",
+    "phone": "0–800–500–155"
+  },
+  {
+    "name": "Happy Paw",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/logo_1_gg4kv0.png",
+    "time": {
+      "monday": "08:00 - 19:00",
+      "tuesday": "08:00 - 19:00",
+      "wednesday": "08:00 - 19:00",
+      "thursday": "08:00 - 19:00",
+      "friday": "08:00 - 18:00",
+      "saturday": "08:00 - 18:00",
+      "sunday": "08:00 - 15:00"
+    },
+    "address": "Chota Rystaveli Street, 44",
+    "email": "hello@happypaw.ua",
+    "phone": "+380 44 290-03-29"
+  },
+  {
+    "name": "PetHelp",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/image_41_fbpolk.png",
+    "time": null,
+    "address": null,
+    "email": "pithelp.ukr@gmail.com",
+    "phone": null
+  },
+  {
+    "name": "Сіріус",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2022-08-16_%D0%BE_00.35_2_lxgxuc.png",
+    "time": {
+      "monday": "11:00 - 16:00",
+      "tuesday": "11:00 - 16:00",
+      "wednesday": "11:00 - 16:00",
+      "thursday": "11:00 - 16:00",
+      "friday": "11:00 - 16:00",
+      "saturday": "09:00 - 20:00",
+      "sunday": "09:00 - 20:00"
+    },
+    "address": "Fedorivka, Kyiv Oblast",
+    "email": "dogcat.sirius@gmail.com",
+    "phone": "+38 093 193 40 69"
+  },
+  {
+    "name": "PURINA",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/logo_2_1_y2r6te.png",
+    "time": null,
+    "address": null,
+    "email": "info@ua.nestle.com",
+    "phone": "1-800-778-7462"
+  },
+  {
+    "name": "Josera",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/Group_428_bzubie.png",
+    "time": {
+      "monday": "09:00 - 17:00",
+      "tuesday": "09:00 - 17:00",
+      "wednesday": "09:00 - 17:00",
+      "thursday": "09:00 - 17:00",
+      "friday": "09:00 - 17:00",
+      "saturday": "09:00 - 17:00",
+      "sunday": "09:00 - 17:00"
+    },
+    "address": "Sholom-Aleikhema St, 11",
+    "email": "info@josera.ua",
+    "phone": "0800 409 060"
+  },
+  {
+    "name": "LICO",
+    "imageURL": "https://res.cloudinary.com/dv7t2zcqq/image/upload/v1675873137/Frame_292_fx1fc0.png",
+    "time": {
+      "monday": "09:00 - 20:00",
+      "tuesday": "09:00 - 20:00",
+      "wednesday": "09:00 - 20:00",
+      "thursday": "09:00 - 20:00",
+      "friday": "09:00 - 20:00",
+      "saturday": "10:00 - 19:00",
+      "sunday": "10:00 - 19:00"
+    },
+    "address": "Dryhetiv Street, 77",
+    "email": "lico@gmail.com",
+    "phone": "+38 097 509 8005"
+  }
+]

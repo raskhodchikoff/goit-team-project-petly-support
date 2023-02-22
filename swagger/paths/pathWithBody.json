@@ -1,0 +1,38 @@
+"/notices/current/add": {
+      "post": {
+        "tags": ["Notices"],
+        "summary": "Add New Notice",
+        "security": [{ "Bearer": [] }],
+        "requestBody": {
+          "description": "New Pet object",
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/AddNotiseRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetNoticesResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {}
+          },
+          "500": {
+            "description": "Server: Validation error",
+            "content": {}
+          }
+        }
+      }
+    }
